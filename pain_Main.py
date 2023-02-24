@@ -1,5 +1,5 @@
-from Param_TKA import *
-from Libraries_TKA import *
+from pain_Param import *
+from pain_Libraries import *
 
 import cohort_finder_xray as cf_xray
 import cohort_finder_mri_progression as cf_progression
