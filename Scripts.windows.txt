@@ -1,0 +1,28 @@
+git clone https://github.com/WongKinYiu/yolov7.git
+
+# pip install -r requirements.txt
+py -m pip install -r requirements.txt
+
+# python detect.py --source 0
+# py detect.py --source 0
+py detect.py --weights yolov7-tiny.pt --source 0 # or ./image
+
+
+
+# weights: https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e.pt
+!python detect.py --weights yolov7-e6e.pt --source ./man_cafe.jpg
+
+Small: https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt
+Medium: https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt
+Large: https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e.pt
+# https://inside-machinelearning.com/en/use-yolov7/
+
+
+py test_the_training.py --data_dir ..\sample_knee_mri_localization\9009067_10287112_R_Progressed --class_file class_names.txt
+
+C:\Users\hrmor\"OneDrive - University of Mississippi Medical Center"\05_Pycharm\venv\Scripts\activate
+cd 'C:\Users\hrmor\OneDrive - University of Mississippi Medical Center\05_Pycharm\'
+
+py train.py --data data/custom.yaml --cfg models/yolov7.yaml --weights weights/yolov7.pt
+
+https://www.analyticsvidhya.com/blog/2022/08/how-to-train-a-custom-object-detection-model-with-yolov7/
