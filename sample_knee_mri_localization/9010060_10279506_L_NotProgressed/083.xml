@@ -1,0 +1,26 @@
+<annotation>
+	<folder>9010060_10279506_L_NotProgressed</folder>
+	<filename>083.jpg</filename>
+	<path>M:\Pitt\Datasets\OAI_Progression_Slices\OAI_Progression_Slices\9010060_10279506_L_NotProgressed\083.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>384</width>
+		<height>384</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>KneeJointArea_Lat</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>21</xmin>
+			<ymin>69</ymin>
+			<xmax>290</xmax>
+			<ymax>358</ymax>
+		</bndbox>
+	</object>
+</annotation>
