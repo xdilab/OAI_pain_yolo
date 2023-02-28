@@ -1,0 +1,9 @@
+train: ../sample_one/  # 118287 images
+val: ../sample_one/  # 5000 images
+test: ../sample_one/  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 1 # 80
+
+# class names
+names: [ 'KneeJointArea_Lat' ]
