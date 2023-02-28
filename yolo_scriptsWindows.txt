@@ -24,3 +24,4 @@ py train.py --data data/custom.yaml --cfg models/yolov7.yaml --weights weights/y
 # 3D models
 # https://keras.io/examples/vision/3D_image_classification/  # KERAS
 # https://towardsdatascience.com/simple-3d-mri-classification-ranked-bronze-on-kaggle-87edfdef018a  # MONAI
+# Nick: https://machinelearningprojects.net/train-yolov7-on-the-custom-dataset/
