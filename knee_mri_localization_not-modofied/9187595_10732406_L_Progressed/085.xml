@@ -1,0 +1,26 @@
+<annotation>
+	<folder>9187595_10732406_L_Progressed</folder>
+	<filename>085.jpg</filename>
+	<path>C:\Users\15102\Downloads\Ismaeel Knee Localization Sample\OneDrive_1_2-24-2023_ismaeel_batch3\9187595_10732406_L_Progressed\085.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>384</width>
+		<height>384</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>SagKneeJointArea</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>35</xmin>
+			<ymin>72</ymin>
+			<xmax>258</xmax>
+			<ymax>287</ymax>
+		</bndbox>
+	</object>
+</annotation>

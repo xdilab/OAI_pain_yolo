@@ -1,0 +1,26 @@
+<annotation>
+	<folder>9009067_10287112_R_Progressed</folder>
+	<filename>083.jpg</filename>
+	<path>C:\Users\15102\Downloads\OneDrive_1_2-2-2023\9009067_10287112_R_Progressed\083.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>384</width>
+		<height>384</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>SagKneeJointArea</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>54</xmin>
+			<ymin>85</ymin>
+			<xmax>269</xmax>
+			<ymax>286</ymax>
+		</bndbox>
+	</object>
+</annotation>

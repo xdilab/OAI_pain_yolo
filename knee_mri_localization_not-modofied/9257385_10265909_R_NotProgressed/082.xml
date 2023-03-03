@@ -1,0 +1,26 @@
+<annotation>
+	<folder>9257385_10265909_R_NotProgressed</folder>
+	<filename>082.jpg</filename>
+	<path>C:\Users\Sanyukta\Downloads\9257385_10265909_R_NotProgressed\082.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>384</width>
+		<height>384</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>SagKneeJointArea</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>48</xmin>
+			<ymin>109</ymin>
+			<xmax>280</xmax>
+			<ymax>324</ymax>
+		</bndbox>
+	</object>
+</annotation>
