@@ -1,5 +1,5 @@
-from Param_TKA import *
-from Libraries_TKA import *
+from pain_Param import *
+from pain_Libraries import *
 
 def main():
 

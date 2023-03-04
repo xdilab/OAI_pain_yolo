@@ -1,5 +1,5 @@
-from Param_TKA import *
-from Libraries_TKA import *
+from pain_Param import *
+from pain_Libraries import *
 
 def main():
 
@@ -110,11 +110,11 @@ def main():
         return((count_9>=2))
     enrollees['right_joint_2_jump'] = enrollees[right_joint].apply(lambda row: difference_func(row), axis=1)
     enrollees['left_joint_2_jump'] = enrollees[left_joint].apply(lambda row: difference_func(row), axis=1)
-    enrollees["left_eligible"] = (enrollees["left_joint_2_jump"] ) #& enrollees["left_joint_is_monotonic"])
-    enrollees["right_eligible"] = (enrollees["right_joint_2_jump"] ) #& enrollees["right_joint_is_monotonic"])
-    case= enrollees[  ( enrollees["left_eligible"] | enrollees["right_eligible"] )]
+    enrollees["left_progression"] = (enrollees["left_joint_2_jump"] ) #& enrollees["left_joint_is_monotonic"])
+    enrollees["right_progression"] = (enrollees["right_joint_2_jump"] ) #& enrollees["right_joint_is_monotonic"])
+    case= enrollees[  ( enrollees["left_progression"] | enrollees["right_progression"] )]
     print("Pain 9+>=2 eligible: ",case.shape)
-    print("Pain Eligible:", case["left_eligible"].sum(), case["right_eligible"].sum(),(case["left_eligible"].sum() + case["right_eligible"].sum()))
+    print("Pain Eligible:", case["left_progression"].sum(), case["right_progression"].sum(),(case["left_progression"].sum() + case["right_progression"].sum()))
     # print(case.head(),"\n", case[case["left_eligible"]][left_joint].head(),"\n", case[case["right_eligible"]][right_joint].head())
 
     # def difference_func(row):

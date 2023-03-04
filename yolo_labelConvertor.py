@@ -76,6 +76,11 @@ if True:         # TODO: copies all files to corressponding folder ::  image -> 
 
 if True:         # TODO: copy all the files in sib folder to the root of a folder
 
+    images_folder = os.path.join(onRoot_path, "images")
+    os.makedirs(images_folder, exist_ok=True)
+    txt_labels_folder = os.path.join(onRoot_path, "labels")
+    os.makedirs(txt_labels_folder, exist_ok=True)
+
     for root, dirs, files in os.walk(subFoldered_path):
         for file in files:
             src_file = os.path.join(root, file)
@@ -83,5 +88,9 @@ if True:         # TODO: copy all the files in sib folder to the root of a folde
             print(root," | " ,file, " | " ,parent)
             if '.xml' in file:
                 continue
-            dest_file = os.path.join(onRoot_path, parent + "_" + file)
-            shutil.copy(src_file, dest_file)
+            if '.jpg' in file:
+                dest_file = os.path.join(images_folder, parent + "_" + file)
+                shutil.copy(src_file, dest_file)
+            if '.txt' in file:
+                dest_file = os.path.join(txt_labels_folder, parent + "_" + file)
+                shutil.copy(src_file, dest_file)

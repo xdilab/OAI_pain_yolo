@@ -13,8 +13,8 @@ import platform
 # subset_identifier = "_500_painScore"
 subset_identifier = "_overall"
 
-descript_base_dir = 'C:\\Users\\hrmor\\OneDrive - University of Mississippi Medical Center\\04_Projects\\Proj__Ahmad\\OAI pain_Nick\\NIH OAI Descr\\OAICompleteData_ASCII\\'
-img_bese_dir = "C:\\Users\\hrmor\\OneDrive - University of Mississippi Medical Center\\04_Projects\\Proj__Ahmad\\Proj__Nick\\NIH OAI Descr\\Package_1199934_47GB\\results\\P001\\"
+descript_base_dir = 'C:\\Users\\hrmor\\OneDrive - University of Mississippi Medical Center\\03_Projects\\Proj__Ahmad\\OAI_pain_Nick\\NIH OAI Descr\\OAICompleteData_ASCII\\'
+img_bese_dir = "C:\\Users\\hrmor\\OneDrive - University of Mississippi Medical Center\\03_Projects\\Proj__Ahmad\\Proj__Nick\\NIH OAI Descr\\Package_1199934_47GB\\results\\P001\\"
 resultsLocation =""
 folder_path =img_bese_dir # "\0.C.2\ # D:\\___NDA\\Package_1200138\\results\\00m\\
 seperator_char = "\\"
