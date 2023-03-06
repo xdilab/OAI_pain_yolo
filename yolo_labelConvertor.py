@@ -2,6 +2,7 @@ import os
 import xml.etree.ElementTree as ET
 import shutil
 
+
 # Define the label map
 # label_map = {"KneeJointArea_Lat": 0}
 label_map = {"SagKneeJointArea": 0}
